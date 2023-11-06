@@ -1,6 +1,6 @@
 package fr.algorithmie;
 
-public class RechercheMin {
+public class RechercheMax {
 
     public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class RechercheMin {
 
         for (int i = 0; i < array.length; i++) {
 
-            if (array[i] < minValue) {
+            if (array[i] > minValue) {
 
                 minValue = array[i];
 
@@ -18,7 +18,7 @@ public class RechercheMin {
 
         }
 
-        System.out.println("Le plus petit éléments du tableau est: " + minValue);
+        System.out.println("Le plus grand éléments du tableau est: " + minValue);
 
 
     }
